@@ -11,9 +11,11 @@ The executable takes a number of command line options:
 If the same option is passed multiple times, only the last is counted.
 
 You can load a sample file like this: `./game -f "sample saves/test.txt"`
+
 Options can be chained as follows: `./game -wha 30 20`
 
 ## Controls
+    - LEFTCLICK to place a Cell in team A
     - RIGHTCLICK to place a Cell in team B
     - Pressing twice will reset to empty Cell
     - press SPACE to advance the game by one step
